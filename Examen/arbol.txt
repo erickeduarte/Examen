@@ -1,0 +1,14 @@
+graph arbol { 
+ node [shape = record, height .1]; 
+node0[ label= "<f0> 1 - 4| <f1> 8 - 4.1"];
+node1[ label= "<f0> 2 - 4| <f1> 3 - 4"];
+node2[ label= "<f0> 52 - 8.6"];
+node3[ label= "<f0> 4 - 4"];
+
+"node0": f0 --"node1": f1;
+
+"node0": f1 --"node2": f1;
+
+"node0": f1 --"node3": f1;
+
+}
